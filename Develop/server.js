@@ -29,7 +29,6 @@ app.post("/api/notes", (req, res) => {
   currentNotes.push(newNote);
   // Write the updated array of notes to db.json
   fs.writeFileSync("./db/db.json", JSON.stringify(currentNotes));
-  // Send the new note back to the client
   res.json(newNote);
   console.info(`${req.method} request received`);
 });
@@ -43,8 +42,8 @@ app.delete("/api/notes/:id", (req, res) => {
   const updatedNotes = currentNotes.filter((note) => note.id !== noteId);
   // Write the updated array of notes to db.json
   fs.writeFileSync("./db/db.json", JSON.stringify(updatedNotes));
-  // Send a success message back to the client
   res.json({ message: 'Note deleted successfully' });
+  console.info('Note deleted successfully');
 });
 
 app.listen(PORT, () => {

@@ -1,17 +1,1 @@
-[
-  {
-    "title": "note",
-    "text": "notes",
-    "id": "81d7243d-0dc4-4863-aca9-e1f80c9903b9"
-  },
-  {
-    "title": "another note",
-    "text": "note is here",
-    "id": "70d90d6c-67b2-47df-ae41-a6dfb6bf411f"
-  },
-  {
-    "title": "third note",
-    "text": "another another note",
-    "id": "edbe01dc-d91c-4baa-9a54-03bf3dffcb12"
-  }
-]
+[{"title":"hello there","text":"hi","id":"1c9a8b3a-276d-4018-a6a9-dfba91eb75fc"},{"title":"4th note","text":"not here","id":"efdcabe2-4753-4251-9ba0-920ef2aad5a0"}]
