@@ -1,1 +1,17 @@
-[{"title":"hello there","text":"hi","id":"1c9a8b3a-276d-4018-a6a9-dfba91eb75fc"},{"title":"4th note","text":"not here","id":"efdcabe2-4753-4251-9ba0-920ef2aad5a0"}]
+[
+  {
+    "title": "hello there",
+    "text": "hi",
+    "id": "1c9a8b3a-276d-4018-a6a9-dfba91eb75fc"
+  },
+  {
+    "title": "4th note",
+    "text": "not here",
+    "id": "efdcabe2-4753-4251-9ba0-920ef2aad5a0"
+  },
+  {
+    "title": "this is another note!",
+    "text": "it's here!",
+    "id": "6725df92-628c-44a7-88e2-eb520c992020"
+  }
+]

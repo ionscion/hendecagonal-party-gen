@@ -15,6 +15,8 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
+//todo - * directory thing
+
 app.get("/notes", (req, res) => {
   res.sendFile(path.join(__dirname, "public/notes.html"));
 });
@@ -34,7 +36,6 @@ app.post("/api/notes", (req, res) => {
 });
 
 app.delete("/api/notes/:id", (req, res) => {
-  // Get the ID of the note to delete from the request parameters
   const noteId = req.params.id;
   // Read the current notes from db.json
   const currentNotes = JSON.parse(fs.readFileSync("./db/db.json"));
